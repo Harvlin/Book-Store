@@ -1,29 +1,3 @@
-import { useContext } from "react";
-import AdminAuthorForm from "../components/AdminAuthorForm";
-import AppContext from "../context/AppContext";
-import { Author } from "../domain/Author";
-import BasePage from "./BasePage";
-import { useNavigate } from "react-router";
-
-export default function AdminAuthorCreatePage() {
-  const authorService = useContext(AppContext).authorService;
-
-  const navigate = useNavigate();
-
-  const createAuthor = async (author: Author): Promise<void> => {
-    await authorService.createAuthor(author);
-    navigate("/admin");
-  };
-
-  return (
-    <BasePage>
-      <div>
-        <AdminAuthorForm
-          author={undefined}
-          save={createAuthor}
-          isLoading={false}
-        />
-      </div>
-    </BasePage>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad091023ef61aa49664eda0eb6644c2380768babb6e7fb1988da52f1a81849b6
+size 755

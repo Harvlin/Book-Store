@@ -1,13 +1,3 @@
-package com.project.bookstore.services.serviceImpl
-
-import com.project.bookstore.domain.entities.AuthorEntity
-import com.project.bookstore.repositories.AuthorRepository
-import com.project.bookstore.services.AuthorService
-import org.springframework.stereotype.Service
-
-@Service
-class AuthorServiceImpl(val authorRepository: AuthorRepository): AuthorService {
-    override fun save(authorEntity: AuthorEntity): AuthorEntity {
-        return authorRepository.save(authorEntity)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d56c9e88c11f7fe34d1ca0a7de3863355e8870ce2602cdc55e53c90e0b00b1fa
+size 494

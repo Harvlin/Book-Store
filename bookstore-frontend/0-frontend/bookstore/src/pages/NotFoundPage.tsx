@@ -1,16 +1,3 @@
-import BasePage from "./BasePage";
-
-export default function NotFoundPage() {
-  return (
-    <BasePage>
-      <div className="h-max w-max m-auto">
-        <div className="text-center m-auto">
-          <h1 className="font-extrabold text-8xl mb-2 text-default-400">404</h1>
-          <h2 className="font-extrabold text-4xl mb-8 text-default-400">
-            Not Found
-          </h2>
-        </div>
-      </div>
-    </BasePage>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:20bc0b09caa0e6eb2075b375069f4abdcb4465db1198efab17deb7da9943ef79
+size 434

@@ -1,8 +1,3 @@
-package com.project.bookstore.repositories
-
-import com.project.bookstore.domain.entities.AuthorEntity
-import org.springframework.data.jpa.repository.JpaRepository
-import org.springframework.stereotype.Repository
-
-@Repository
-interface AuthorRepository : JpaRepository<AuthorEntity, Long?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:16e55ba74b075bcaaf1abb72ff5c1b3512fbbdd01497f509ef227dbcfeb9d910
+size 295

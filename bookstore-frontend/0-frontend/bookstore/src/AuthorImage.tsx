@@ -1,24 +1,3 @@
-import { Image } from "@nextui-org/react";
-import { Author } from "./domain/Author";
-
-type AuthorImageProps = {
-  author: Author;
-};
-export default function AuthorImage(props: AuthorImageProps) {
-  const { author } = props;
-
-  const authorToAuthorImage = (author: Author): string => {
-    return `/images/${author.image}`;
-  };
-
-  return (
-    <Image
-      shadow="sm"
-      radius="lg"
-      width="100%"
-      alt="Image of an author"
-      className="w-full object-cover h-[300px]"
-      src={authorToAuthorImage(author)}
-    />
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2497f089ddf2107f1ee4706518835420dd8b1c542a1268c41b7ac12d23f07d85
+size 539
