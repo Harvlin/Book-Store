@@ -67,6 +67,11 @@
 			<artifactId>kotlin-maven-allopen</artifactId>
 			<version>${kotlin.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 
 		<!-- MySQL Connector -->
 		<dependency>
